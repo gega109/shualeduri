@@ -1,0 +1,209 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+ 
+ }
+ 
+ body {
+     display: flex;
+     height: 100vh;
+     align-items: center;
+     justify-content: center;
+     background-color: #ECF2FF;
+ }
+ .main_box {
+     background-color: white;
+     width: 736px;
+     height: 512px;
+     border-radius: 25px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .inside_box1 {
+     border-radius: 32px;
+     background-image: linear-gradient(#7755FF,#6943FF,#2F2CE9);
+     width: 368px;
+     height: 512px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+ .result_text {
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     color: #CAC9FF;
+     padding-top: 38px;
+     text-align: center;
+ }
+ .circle_box {
+     width: 200px;
+     height: 200px;
+     display: flex;
+     background-image: linear-gradient(#4D21C9,#2521C900,#2521C900);
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     border-radius: 50%;
+ }
+ .circle_element1 {
+     font-size: 72px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: 72px;
+     color: #ECF2FF;
+ }
+ .circle_element2 {
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     color: #CAC9FF;
+ }
+ 
+ .value_box {
+     width: 260px;
+     height: 134px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     justify-content:space-evenly;
+     margin-bottom: 40px;
+ }
+ 
+ .Great {
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     color: #fff;
+     text-align: center;
+ }
+ .un_text {
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     color: #CAC9FF;
+     text-align: center;
+ }
+ .inside_box2 {
+     border-radius: 32px;
+     background-color: #fff;
+     width: 368px;
+     height: 512px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     justify-content: space-evenly;
+ }
+ .summary {
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     color:Dark Navy;
+     text-align: center;
+ }
+ .census_box1 {
+     width: 288px;
+     height: 56px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px;
+ }
+ #bg_color1 {
+     background-color: rgb(255, 210, 210);
+     border-radius: 12px;
+ }
+ #bg_color2 {
+     background-color: #fff4e2;
+     border-radius: 12px;
+ }
+ #bg_color3 {
+     background-color: #befeef;
+     border-radius: 12px;
+ }
+ #bg_color4 {
+     background-color: #daddff;
+     border-radius: 12px;
+ }
+ button{
+     width: 288px;
+     height: 56px;
+     border-radius: 30px;
+     border: none;
+     background-image: linear-gradient(#7755FF,#6943FF,#2F2CE9);
+     font-size: 18px;
+     font-weight: bold;
+     line-height: normal;
+     color: white;
+ }
+ .census_main {
+     height: 240px;
+     width: 288px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: column;
+ }
+ .img_div {
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     height: 56px;
+     width: 144px;
+ }
+ .icon {
+     width: 20px;
+     height: 20px;
+ }
+ .icon_text {
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 23.45px;
+     margin-left: 10px;
+ }
+ .score_div {
+     display: flex;
+     justify-content: end;
+     align-items: center;
+     height: 56px;
+     width: 144px;
+ }
+ .score_p {
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     color: #303B59;
+ }
+ .score_span {
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     color:rgba(183, 183, 183, 0.979) ;
+ }
+ #icon_color1 {
+     color: #FF5555
+ }
+ #icon_color2 {
+     color: #FFB21E
+ }
+ #icon_color3 {
+     color: #00BB8F
+ }
+ #icon_color4 {
+     color: #1125D6
+ }
